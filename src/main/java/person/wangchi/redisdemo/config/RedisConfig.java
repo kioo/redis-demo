@@ -14,6 +14,7 @@ import java.net.UnknownHostException;
 
 /**
  * 固定模版，可以直接使用
+ * 将存入 redis 的key 和 value 进行序列化的配置
  */
 @Configuration
 public class RedisConfig {
